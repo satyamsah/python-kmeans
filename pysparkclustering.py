@@ -60,7 +60,7 @@ if __name__ == "__main__":
        rowsofitems.append(arrOfFeatures)
     
     a = np.asarray(rowsofitems)
-    np.savetxt("foo.csv", a, delimiter=",")
+    np.savetxt("output.csv", a, delimiter=",",fmt="%1.3f")
     
     '''
     print("-----")
